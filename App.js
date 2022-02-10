@@ -3,6 +3,7 @@ import React from "react";
 import { Text, View, StyleSheet } from "react-native";
 import BoxFlex from "./src/Components/BoxFlex";
 import NetfllixCard from "./src/Components/NetfllixCard";
+import States from "./src/Components/States";
 import Images from "./src/node/Images";
 import OpenButton from "./src/node/OpenButton";
 import TouchableOp from "./src/node/TouchableOp";
@@ -13,7 +14,7 @@ import TouchableOp from "./src/node/TouchableOp";
 //create a compont that return some jsx
 const App = () => {
   return (
-    <View>
+    <View style={styles.textStyles}>
       {/* <Text style={styles.textStyle}>Hello world</Text>
       <Text style={{ fontWeight: "bold", fontSize: 40, color: "green" }}>
         Welcome here
@@ -29,7 +30,8 @@ const App = () => {
       {/* <View style={styles.textStyles}>
         <NetfllixCard />
       </View> */}
-      <BoxFlex />
+      {/* <BoxFlex /> */}
+      <States />
       {/* <OpenButton /> */}
       {/* <TouchableOp /> */}
     </View>
@@ -41,9 +43,6 @@ export default App;
 //create a style sheet to style components
 const styles = StyleSheet.create({
   textStyles: {
-    display: "flex",
-    alignItems: "center",
-    // alignItem: "center",
-    // alignItem: "center",
+    marginTop: 50,
   },
 });
