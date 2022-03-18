@@ -7,6 +7,7 @@ import States from "./src/Components/States";
 import Images from "./src/node/Images";
 import OpenButton from "./src/node/OpenButton";
 import TouchableOp from "./src/node/TouchableOp";
+import Hookeffect from "./src/Project/Hookeffect";
 import RandomColor from "./src/Project/RandomColor";
 // import List from "./src/node/List";
 // import NetflixCard from "./src/node/NetflixCard";
@@ -35,7 +36,8 @@ const App = () => {
       {/* <States /> */}
       {/* <OpenButton /> */}
       {/* <TouchableOp /> */}
-      <RandomColor />
+      {/* <RandomColor /> */}
+      <Hookeffect />
     </View>
   );
 };
