@@ -39,11 +39,11 @@ const Hookeffect = () => {
               <View style={styles.containerimg}>
                 <Image
                   source={{ uri: item.url }}
-                  resizeMode="cover"
+                  resizeMode="center"
                   style={styles.Image}
                 />
               </View>
-              <View style={{ position: "relative", left: 25, bottom: 30 }}>
+              <View style={{ position: "relative", left: 15, bottom: 30 }}>
                 <Text style={{ position: "absolute", bottom: 150, left: 150 }}>
                   Id : {item.id}
                 </Text>
@@ -63,7 +63,7 @@ export default Hookeffect;
 const styles = StyleSheet.create({
   Image: {
     height: 500,
-    width: 400,
+    width: 500,
     minHeight: "100%",
   },
   containerimg: {
